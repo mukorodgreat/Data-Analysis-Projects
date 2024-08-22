@@ -155,20 +155,34 @@ In this section I took advertage of the **Ms Excel Power Pivot** to create carry
 
 ![Dashboard](https://github.com/user-attachments/assets/cb979e7a-3674-47a0-a7e6-14bd5d0b9f6a)
 
-### i.	Analysis with Ms Excel Power Pivot:
+## C.	Hypothesis Testing/ Statistical Analysis:
+Hypothesis Testing: 
+Here we will test hypotheses or assumptions about the data. This may involve comparing different groups or categories within the data to see if there are significant differences or correlations.
+
 Below are some of the analysis done us Power Pivot
+### 1. Profitability 
 
 #### A. Profit By Region	
 ![image](https://github.com/user-attachments/assets/2db65d4f-b43a-4fd3-b818-0afd1dd79877)
 
-#### B. Profitable Months	
+#### B. Profit By Sub-Category		
+![image](https://github.com/user-attachments/assets/34462649-a688-4f91-87d7-9ba047253360)
+
+#### C. Profitable Months	
 ![image](https://github.com/user-attachments/assets/2ad69c69-250f-49d4-b857-5fd90f15e210)
 
-#### C. Top 5 Profitable States	
+#### D. Top 5 Profitable States	
 ![image](https://github.com/user-attachments/assets/bcbde224-3929-4327-8761-013524d2beee)
 
-#### D. Least 3 Profitable Products	
+#### E. Least 3 Profitable Products	
 ![image](https://github.com/user-attachments/assets/4cfea6d6-dd3c-467a-a888-42d543de72a5)
+
+
+### 2. Customers Distribution/Demography
+
+#### F. Least 5 States with the Lowest Number of Customers and Sales		
+![image](https://github.com/user-attachments/assets/a0df5cfc-4186-482c-b301-b3bbe49679af)
+
 
 
 
