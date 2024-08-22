@@ -31,7 +31,7 @@ This project is going to be in 5 Phases
         Load and Transform the Data using Power Query Editor
 
 ![import3](https://github.com/user-attachments/assets/56a2758a-6d9e-4c1e-8a53-d1bd10c2a106)
-Data Tab > Get and Transform > New Query
+**Data Tab > Get and Transform > New Query**
 
 The data will be loaded into the Power Query Editor where we will easily cleanup the data, create new tables among others to completely transform the data and Load the transform data into Excel Data Model Environment as shown below.   
 ![Import4](https://github.com/user-attachments/assets/cba6bbc0-f753-4abc-8138-85777ea24f3f)
@@ -63,7 +63,7 @@ The data will be loaded into the Power Query Editor where we will easily cleanup
 
 Note: The data is clean but for the purpose of Feature Engineering and performance, there will be need for Normalization of the Dataset because it contains a lot of redundant data which I did using both the traditional Excel tools and the Excel Power Query Tools as shown above.
 
-#### Order ID : 
+**Order ID** 
         A total of 9,994 Products were sold in 5,009 Unique Orders (The Order ID is not         
         Unique in this Column) Multiple Products in each Unique Order ID as shown in            
         the figure below. 
