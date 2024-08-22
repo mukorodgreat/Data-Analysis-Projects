@@ -12,14 +12,14 @@ This project is going to be in 5 Phases
 5.	Superstore Sale Data Analysis using Tableau
 
 # 1.	Superstore Sale Data Analysis using Excel
-In this phase I will be carry out an exploratory data analysis on the Superstore Sales Dataset using the traditional 
-Ms. Excel tools and the Ms. Excel Power Query Tools in the following order,  
-A.	 Data cleaning and preprocessing
-I.	 Load the Dataset to Excel:
-II.	 Inspect and Understand the Data:
-III. Handle Missing Values (If any):
-IV.	 Calculate Summary Statistics:
-V.	 Data Modelling/Normalization: 
+    In this phase I will be carry out an exploratory data analysis on the Superstore Sales Dataset using the traditional 
+    Ms. Excel tools and the Ms. Excel Power Query Tools in the following order,  
+    A.	 Data cleaning and preprocessing
+        I.	 Load the Dataset to Excel:
+        II.	 Inspect and Understand the Data:
+        III. Handle Missing Values (If any):
+        IV.	 Calculate Summary Statistics:
+        V.	 Data Modelling/Normalization: 
     B.	Data Visualization:
     C.	Hypothesis Testing/ Statistical analysis:
     D.	Documentation:
