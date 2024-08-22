@@ -155,13 +155,19 @@ In this section I took advertage of the **Ms Excel Power Pivot** to create carry
 
 ![Dashboard](https://github.com/user-attachments/assets/cb979e7a-3674-47a0-a7e6-14bd5d0b9f6a)
 
+### i.	Analysis with Ms Excel Power Pivot:
+Below are some of the analysis done us Power Pivot
 
-Least 3 Profitable Products	
-Row Labels	Total_Profit
-Lexmark MX611dhe Monochrome Laser Printer	($4,590)
-Cubify CubeX 3D Printer Double Head Print	($8,880)
-Cubify CubeX 3D Printer Triple Head Print	($3,840)
-Grand Total	($17,310)
+#### A. Profit By Region	
+![image](https://github.com/user-attachments/assets/2db65d4f-b43a-4fd3-b818-0afd1dd79877)
+
+#### B. Profitable Months	
+![image](https://github.com/user-attachments/assets/2ad69c69-250f-49d4-b857-5fd90f15e210)
+
+#### C. Top 5 Profitable States	
+![image](https://github.com/user-attachments/assets/bcbde224-3929-4327-8761-013524d2beee)
+
+#### D. Least 3 Profitable Products	
 ![image](https://github.com/user-attachments/assets/4cfea6d6-dd3c-467a-a888-42d543de72a5)
 
 
