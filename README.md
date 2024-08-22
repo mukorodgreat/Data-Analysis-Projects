@@ -18,11 +18,11 @@ This project is going to be in 5 Phases
 In this phase I will be carry out an exploratory data analysis on the Superstore Sales Dataset using the traditional 
 Ms. Excel tools and the Ms. Excel Power Query Tools in which produce the above Dashboard  
 - A.	Data cleaning and preprocessing
-        - I.	 Load the Dataset to Excel:
-        - II.	 Inspect and Understand the Data:
-        - III. Handle Missing Values (If any):
-        - IV.	 Calculate Summary Statistics:
-        - V.	 Data Modelling/Normalization: 
+  1. Load the Dataset to Excel:
+  2. Inspect and Understand the Data:
+  3. Handle Missing Values (If any):
+  4. Calculate Summary Statistics:
+  5. Data Modelling/Normalization: 
 - B.	Data Visualization:
 - C.	Hypothesis Testing/ Statistical analysis:
 - D.	Documentation:
