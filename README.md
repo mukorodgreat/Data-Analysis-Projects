@@ -71,7 +71,7 @@ Note: The data is clean but for the purpose of Feature Engineering and performan
 Dataset because it contains a lot of redundant data which I did using both the traditional Excel tools and the Excel Power Query Tools as shown above.
 
 **Order ID** 
-        A total of 9,994 Products were sold in 5,009 Unique Orders (The Order ID is not         
+        :A total of 9,994 Products were sold in 5,009 Unique Orders (The Order ID is not         
         Unique in this Column) Multiple Products in each Unique Order ID as shown in            
         the figure below. 
         
