@@ -27,7 +27,7 @@ Ms. Excel tools and the Ms. Excel Power Query Tools in which produce the above D
 - C.	Hypothesis Testing/ Statistical analysis:
 - D.	Documentation:
 
-   ## A.	Data cleaning and preprocessing
+## A.	Data cleaning and preprocessing
    ### i.	Load the Dataset to Excel:
 The downloaded dataset came in csv. (Comma Separated Values) format and I will be using 
 **Data Tab > Get External Data > From Text** to load the data to excel worksheet or
@@ -84,8 +84,91 @@ the “Remove Duplication Function” in Ms. Excel which include
 - Customers
 - Products 
 - Location 
-- Orders 
-- Sales Table 
+- Orders
+- Sales Table
+
+![Remove Duplicate](https://github.com/user-attachments/assets/db800d51-c4c5-4261-b902-31aeaf6d8e24)
+
+### iv.	Handle Missing Values (If any):
+The data in this dataset are clean and did not contain any missing values. However, it is important to note that Ms. Excel can handle missing values (If any) 
+
+
+### v.	Calculate Summary Statistics:
+I will use Descriptive statistics in Microsoft Excel which provide a summary of the main features of Quantity of product Ordered in the Superstory dataset, offering insights into the product order through measures of central tendency, dispersion, and distribution shape. Common descriptive statistics include mean, median, mode, standard deviation, variance, range, minimum, maximum, and more. Below is the result from Ms. Excel which shows the calculations and interpretation these statistics using Excel.
+![Statistic Summary](https://github.com/user-attachments/assets/5385eb38-4f8e-42ca-8159-e8919b959b5f)
+
+- Mean: The average quantity every Customer ordered 3.79.
+- Standard Error: How much the average order would vary if you picked different groups of orders from the Sales table 0.02.
+- Median: The quantity ordered right in the middle when all the ordered quantities are lined up 3.
+- Mode: The quantity that the most customers ordered 3.
+- Standard Deviation: How much Customers' order vary from the average order 2.23.
+- Sample Variance: Another way to show how much Customers' orders vary 4.95.
+- Kurtosis: Shows if there were many Customers with very high or very low quantity orders 1.99.
+- Skewness: Indicates if more Customers placed lower quantity orders and a few placed really high orders, or vice versa 1.28.
+- Range: The gap between the highest and lowest quantity ordered 13.
+- Minimum: The lowest quantity ordered in the dataset 1.
+- Maximum: The highest quantity ordered in the dataset 14.
+- Sum: The total of all the Customers' quantity ordered added together 37873.
+- Count: The number of transaction that took place in the dataset 9994.
+
+
+### vi.	Data Modelling/Normalization 
+In this section I will be organizing the data in a database efficiently, which involves creating tables and establishing relationships between these tables based on rules designed to protect the data and make the database more flexible by eliminating redundancy and inconsistent dependency.
+
+The Superstore data can be analysis as it is now, but for the purpose of improve performance in Ms. Excel you can use the **Traditional Excel Tool** or the **Excel Power Query Engine** to create the following tables from this dataset.
+
+1.	**Order Table** (Order ID, Customer ID, Location ID, Order Date, Shipping Date, Segment)
+2.	**Product Table** (Product ID, Product Name, Category ID)
+3.	**Category Table** (Category ID, Cat Name)
+4.	**Subcategory Table** (SubCat ID, SubCat Name)
+5.	**Customers Table** (Customer ID, Customer Name, Segment)
+6.	**Location Table** (Location ID, City, State, Region, County)
+7.	**Fact Sales Table** (Row ID, Order ID, Customer ID, Location ID, Product ID, Sales, Quantity, Discount, Profit) as shown below.
+
+![Org Table](https://github.com/user-attachments/assets/012681bf-fe3a-4fa9-8e7c-43c70e92d93b)
+
+
+### a.	Creating Table Relationship in Excel.
+![Relationship in Excel](https://github.com/user-attachments/assets/208196b4-b445-4de3-b654-7aa99c2fa433)
+
+After creating all the above mentioned tables, I created Relationships to relate all the tables in the Data Model using the Relationship button in Excel **Data Tab** which can also be done by using Click and drag in **Diagram View** of the **Manage Data Model** Window as shown above. And below is the **Diagram View** of the Data Model in the **Manage Data Model** Window of Excel.
+
+![Data Model](https://github.com/user-attachments/assets/e039bc93-6e12-48b8-938a-640e3c70af13)
+
+#### i.	Outcome of Data Modelling/Normalization 
+After carrying out this step, each of the tables was well organized by pulling all the related columns into their individual tables as shown above.
+After creating the tables and fletching the Unique data into the individual tables, the data shows that 
+1.	Orders: There are 5,009 Unique Orders (Multiple items in an order)
+2.	Customers: There are 793 Unique Customers
+3.	Products: There are 1,862 Unique Products
+4.	Location: There are 531 Unique Locations
+
+#### ii. Calendar Table
+In addition to the above created tables, I created a Calendar table which is simply a table of all the consecutive dates between the selected start and end date. Each row contains one date and is thus unique. Beside the date the table usually contains attributes like year, quarter, month, day, day of week, week of year etc.  which is an essential part of every data modelling and analysis. One of its major advantage is that as the data grows, the Calendar table is automatically update.
+
+
+
+## B.	Data Visualization:
+Here we will use various visualization techniques, such as histograms, scatter plots, box plots, and heat-maps to visually explore the data and identify patterns or trends that may not be immediately apparent from the summary statistics alone. 
+
+In this section I took advertage of the **Ms Excel Power Pivot** to create carry out my analysis before creating the Dashboard as show below
+
+![Dashboard](https://github.com/user-attachments/assets/cb979e7a-3674-47a0-a7e6-14bd5d0b9f6a)
+
+
+Least 3 Profitable Products	
+Row Labels	Total_Profit
+Lexmark MX611dhe Monochrome Laser Printer	($4,590)
+Cubify CubeX 3D Printer Double Head Print	($8,880)
+Cubify CubeX 3D Printer Triple Head Print	($3,840)
+Grand Total	($17,310)
+![image](https://github.com/user-attachments/assets/4cfea6d6-dd3c-467a-a888-42d543de72a5)
+
+
+
+
+
+
 
 
 
