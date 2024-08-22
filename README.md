@@ -29,9 +29,10 @@ This project is going to be in 5 Phases
    ### i.	Load the Dataset to Excel:
 The downloaded dataset came in csv. (Comma Separated Values) format and I will be using 
 **Data Tab > Get External Data > From Text** to load the data to excel worksheet or
+
 ![Import1](https://github.com/user-attachments/assets/0f31429f-406f-406d-ba1f-c54c1940363b)
 
-        Load and Transform the Data using Power Query Editor
+Load and Transform the Data using Power Query Editor
 
 ![import3](https://github.com/user-attachments/assets/56a2758a-6d9e-4c1e-8a53-d1bd10c2a106)
 **Data Tab > Get and Transform > New Query**
